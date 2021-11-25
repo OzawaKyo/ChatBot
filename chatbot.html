@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ChatBot</title>
+    <meta name="description" content="Chatbot for L1S2A web dev" />
+    <meta name="author" content="Abdel / chamim" />
+
+    <link
+      href="ChatBot.css"
+      rel="stylesheet"
+    />
+    <link
+    <script src="ChatBot.js"></script>
+  </head>
+
+  <body class="font-sans antialiased w-screen h-screen">
+    <div id="app" class="h-screen flex">
+      <!-- Sidebar / channel list -->
+      <div class="bg-indigo-900 text-purple-200 flex-none w-64 pb-6 block px-4" v-if="helpIsOpen">
+        <div class="text-white mb-2 mt-3 flex justify-between">
+          <div class="flex-auto">
+            <h1 class="font-semibold text-xl leading-tight mb-1 truncate"></h1>
+            <div class="mb-6">
+              <span class="text-white opacity-50 text-sm">Helper section</span>
+            </div>
+          </div>
+          <div>
+            <i class="ri-chat-heart-fill"></i>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+<script src="ChatBot.js"></script>
+</html>
